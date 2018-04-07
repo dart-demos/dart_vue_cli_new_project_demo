@@ -2,7 +2,7 @@ import 'package:vue2/vue.dart';
 
 import 'dart:async';
 
-import 'package:dart-vue-cli-new-project-demo/my_component.dart';
+import 'package:dart_vue_cli_new_project_demo/my_component.dart';
 
 @VueApp(el: '#app')
 class App extends VueAppBase {
