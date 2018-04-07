@@ -1,0 +1,13 @@
+name: dart-vue-cli-new-project-demo
+author: the author
+version: 0.1.0
+description: Project description goes here
+dependencies:
+  browser: any
+  dart_to_js_script_rewriter: any
+  vue2: ^0.3.0
+transformers:
+  - vue2:
+      entry_points:
+        - web/index.dart
+  - dart_to_js_script_rewriter
