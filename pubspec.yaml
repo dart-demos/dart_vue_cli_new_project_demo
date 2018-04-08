@@ -6,6 +6,9 @@ dependencies:
   browser: any
   dart_to_js_script_rewriter: any
   vue2: ^0.3.0
+web:
+  compiler:
+    debug: dartdevc
 transformers:
   - vue2:
       entry_points:

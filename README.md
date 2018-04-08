@@ -12,7 +12,7 @@ Run:
 
 ```
 pub get
-pub serve --web-compiler dartdevc
+pub serve 
 ```
 
 Then open <http://localhost:8080>
